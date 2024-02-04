@@ -49,7 +49,18 @@ const resume = {
       title: 'Frontend Engineer'
     }
   ],
-  technologies: ['javascript', 'css', 'typescript', 'html', 'nodejs', 'react', 'tailwindcss', 'vite', 'vitest']
+  technologies: [
+    'javascript',
+    'typescript',
+    'html',
+    'css',
+    'node.js',
+    'react',
+    'vite',
+    'remix',
+    'next.js',
+    'tailwindcss'
+  ]
 }
 
 export const App = () => (
@@ -57,9 +68,10 @@ export const App = () => (
     <JsonFormatter
       json={JSON.stringify(resume)}
       jsonClassName={{
-        braceClassName: 'text-violet-200',
-        bracketClassName: 'text-violet-200',
-        nullClassName: 'text-zinc-400',
+        braceClassName: 'text-violet-200/55',
+        bracketClassName: 'text-violet-200/55',
+        commaClassName: 'text-violet-200/55',
+        nullClassName: 'text-zinc-400/80',
         propertyClassName: 'text-violet-400'
       }}
     />
