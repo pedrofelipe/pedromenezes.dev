@@ -3,6 +3,7 @@ import JsonFormatter from 'react-json-formatter'
 const resume = {
   name: 'Pedro Menezes',
   email: 'pedro(at)pedromenezes.dev',
+  about: '',
   languages: [
     {
       language: 'Portuguese',
@@ -11,16 +12,6 @@ const resume = {
     {
       language: 'English',
       level: 'Bilingual proficiency'
-    }
-  ],
-  social: [
-    {
-      name: 'twitter',
-      url: 'https://twitter.com/pedrofelipee'
-    },
-    {
-      name: 'linkedin',
-      url: 'https://www.linkedin.com/in/pedrofelipem'
     }
   ],
   workExperience: [
@@ -60,11 +51,21 @@ const resume = {
     'remix',
     'next.js',
     'tailwindcss'
+  ],
+  social: [
+    {
+      name: 'twitter',
+      url: 'https://twitter.com/pedrofelipee'
+    },
+    {
+      name: 'linkedin',
+      url: 'https://www.linkedin.com/in/pedrofelipem'
+    }
   ]
 }
 
 export const App = () => (
-  <main className="mx-auto flex min-h-dvh w-full items-center justify-center p-4 md:p-8">
+  <main className="mx-auto flex min-h-dvh w-full max-w-xl items-center justify-center p-4 md:p-8">
     <JsonFormatter
       json={JSON.stringify(resume)}
       jsonClassName={{
