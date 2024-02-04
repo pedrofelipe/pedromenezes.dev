@@ -1,4 +1,4 @@
-import { JsonRender } from './JsonRender'
+import { PrettyJson } from '@/components/PrettyJson'
 
 const resume = {
   name: 'Pedro Menezes',
@@ -14,7 +14,7 @@ const resume = {
       level: 'Bilingual proficiency'
     }
   ],
-  workExperience: [
+  experience: [
     {
       company: 'Cloudflare',
       startDate: '2023-01',
@@ -76,4 +76,4 @@ const resume = {
   ]
 }
 
-export const Resume = () => <JsonRender data={resume} />
+export const Resume = () => <PrettyJson json={resume} />

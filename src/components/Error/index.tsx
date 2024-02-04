@@ -1,4 +1,4 @@
-import { JsonRender } from './JsonRender'
+import { PrettyJson } from '@/components/PrettyJson'
 
 type ErrorProps = {
   statusCode: number
@@ -6,8 +6,8 @@ type ErrorProps = {
 }
 
 export const Error = ({ statusCode, error }: ErrorProps) => (
-  <JsonRender
-    data={{
+  <PrettyJson
+    json={{
       statusCode,
       error
     }}

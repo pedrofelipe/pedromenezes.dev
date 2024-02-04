@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
-import { Error } from './Error'
-import './index.css'
-import { Resume } from './Resume'
+import { Error } from '@/components/Error'
+import { Resume } from '@/components/Resume'
+import '@/styles/index.css'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
