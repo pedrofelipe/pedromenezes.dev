@@ -40,8 +40,26 @@ const resume = {
       company: 'Codeminer 42',
       startDate: '2015-05',
       endDate: '2018-02',
-      title: 'Frontend Engineer',
+      title: 'Frontend Developer',
       location: ['Natal, Brazil', 'São Paulo, Brazil', 'San Francisco, US']
+    },
+    {
+      company: 'ntxdev',
+      startDate: '2013-12',
+      endDate: '2015-05',
+      title: 'Frontend Developer'
+    },
+    {
+      company: 'Carratu Publicidade',
+      startDate: '2013-10',
+      endDate: '2014-10',
+      title: 'Web Developer'
+    },
+    {
+      company: 'KKI Creative Agency',
+      startDate: '2013-04',
+      endDate: '2013-10',
+      title: 'Web Developer'
     }
   ],
   technologies: [
