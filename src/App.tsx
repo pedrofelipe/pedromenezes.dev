@@ -19,25 +19,29 @@ const resume = {
       company: 'Cloudflare',
       startDate: '2023-01',
       endDate: null,
-      title: 'Frontend Engineer'
+      title: 'Frontend Engineer',
+      location: 'Porto, Portugal'
     },
     {
       company: 'Barkyn',
       startDate: '2021-01',
       endDate: '2023-01',
-      title: 'Frontend Engineer'
+      title: 'Frontend Engineer',
+      location: 'Porto, Portugal'
     },
     {
       company: 'kununu/New Work SE',
       startDate: '2018-02',
       endDate: '2021-01',
-      title: 'Frontend Engineer'
+      title: 'Frontend Engineer',
+      location: 'Porto, Portugal'
     },
     {
       company: 'Codeminer 42',
       startDate: '2015-05',
       endDate: '2018-02',
-      title: 'Frontend Engineer'
+      title: 'Frontend Engineer',
+      location: ['Natal, Brazil', 'São Paulo, Brazil', 'San Francisco, US']
     }
   ],
   technologies: [
