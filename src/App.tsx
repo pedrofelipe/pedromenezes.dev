@@ -66,6 +66,10 @@ const resume = {
       url: 'https://linkedin.com/in/pedrofelipem'
     },
     {
+      name: 'instagram',
+      url: 'https://instagram.com/pedrofelipem'
+    },
+    {
       name: 'last.fm',
       url: 'https://last.fm/user/pedro-felipe'
     }
