@@ -3,7 +3,6 @@ import { PrettyJson } from '@/components/PrettyJson'
 const resume = {
   name: 'Pedro Menezes',
   email: 'pedro(at)pedromenezes.dev',
-  about: '',
   languages: [
     {
       language: 'Portuguese',
@@ -35,6 +34,12 @@ const resume = {
       endDate: '2021-01',
       title: 'Frontend Engineer',
       location: ['Porto, Portugal', 'Vienna, Austria']
+    },
+    {
+      company: 'Tecnoblog',
+      startDate: '2016-08',
+      endDate: '2018-02',
+      title: 'Web Developer'
     },
     {
       company: 'Codeminer 42',
@@ -72,8 +77,10 @@ const resume = {
     'vite',
     'remix',
     'next.js',
-    'tailwindcss'
+    'tailwindcss',
+    'cloudflare workers'
   ],
+  interests: ['tech', 'gaming', 'flight simulation', 'travel - 18 countries visited so far'],
   social: [
     {
       name: 'twitter',
