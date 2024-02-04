@@ -34,7 +34,7 @@ const resume = {
       startDate: '2018-02',
       endDate: '2021-01',
       title: 'Frontend Engineer',
-      location: 'Porto, Portugal'
+      location: ['Porto, Portugal', 'Vienna, Austria']
     },
     {
       company: 'Codeminer 42',
