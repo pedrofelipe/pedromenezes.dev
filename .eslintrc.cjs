@@ -7,14 +7,56 @@ module.exports = {
   },
   extends: [
     'eslint:recommended',
-    'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
-    'plugin:react-hooks/recommended'
+    'plugin:react/recommended',
+    'plugin:react-hooks/recommended',
+    'plugin:import/recommended'
   ],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   parser: '@typescript-eslint/parser',
   plugins: ['react-refresh'],
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+        moduleDirectory: ['node_modules', 'src']
+      }
+    },
+    react: {
+      version: 'detect'
+    }
+  },
   rules: {
+    'import/no-useless-path-segments': [
+      'error',
+      {
+        noUselessIndex: true
+      }
+    ],
+    'import/order': [
+      'error',
+      {
+        alphabetize: {
+          order: 'asc',
+          caseInsensitive: true
+        },
+        groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index', 'object', 'type'],
+        'newlines-between': 'never',
+        warnOnUnassignedImports: true,
+        pathGroups: [
+          {
+            pattern: 'react',
+            group: 'builtin',
+            position: 'before'
+          },
+          {
+            pattern: '@/**',
+            group: 'internal'
+          }
+        ],
+        pathGroupsExcludedImportTypes: ['react']
+      }
+    ],
     'react-refresh/only-export-components': [
       'warn',
       {

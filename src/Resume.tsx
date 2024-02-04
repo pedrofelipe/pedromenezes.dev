@@ -1,4 +1,4 @@
-import JsonFormatter from 'react-json-formatter'
+import { JsonRender } from './JsonRender'
 
 const resume = {
   name: 'Pedro Menezes',
@@ -76,17 +76,4 @@ const resume = {
   ]
 }
 
-export const App = () => (
-  <main className="mx-auto flex min-h-dvh w-full max-w-xl items-center justify-center p-4 md:p-8">
-    <JsonFormatter
-      json={JSON.stringify(resume)}
-      jsonClassName={{
-        braceClassName: 'text-violet-200/55',
-        bracketClassName: 'text-violet-200/55',
-        commaClassName: 'text-violet-200/55',
-        nullClassName: 'text-zinc-400/80',
-        propertyClassName: 'text-violet-400'
-      }}
-    />
-  </main>
-)
+export const Resume = () => <JsonRender data={resume} />
