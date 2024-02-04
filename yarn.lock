@@ -3505,7 +3505,6 @@ __metadata:
     prettier-plugin-tailwindcss: "npm:0.5.11"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
-    react-json-formatter: "npm:0.4.0"
     react-router-dom: "npm:6.22.0"
     tailwindcss: "npm:3.4.1"
     typescript: "npm:5.3.3"
@@ -3765,16 +3764,6 @@ __metadata:
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: 10c0/33977da7a5f1a287936a0c85639fec6ca74f4f15ef1e59a6bc20338fc73dc69555381e211f7a3529b8150a1f71e4225525b41b60b52965bda53ce7d47377ada1
-  languageName: node
-  linkType: hard
-
-"react-json-formatter@npm:0.4.0":
-  version: 0.4.0
-  resolution: "react-json-formatter@npm:0.4.0"
-  peerDependencies:
-    react: ">16.2.0"
-    react-dom: ">16.0.0"
-  checksum: 10c0/9f470559815d18a64a7244ae7536e6c05279fcb5d5686567451a8e576273eb12899461f3275e4b853b8351588f2e60645f33df3b7863ea503b948a5e64e269b8
   languageName: node
   linkType: hard
 
