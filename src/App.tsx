@@ -27,6 +27,7 @@ const resume = {
     {
       company: 'Cloudflare',
       startDate: '2023-01',
+      endDate: null,
       title: 'Frontend Engineer'
     },
     {
@@ -53,6 +54,14 @@ const resume = {
 
 export const App = () => (
   <main className="mx-auto flex min-h-dvh w-full items-center justify-center p-4 md:p-8">
-    <JsonFormatter json={JSON.stringify(resume)} />
+    <JsonFormatter
+      json={JSON.stringify(resume)}
+      jsonClassName={{
+        braceClassName: 'text-violet-200',
+        bracketClassName: 'text-violet-200',
+        nullClassName: 'text-zinc-400',
+        propertyClassName: 'text-violet-400'
+      }}
+    />
   </main>
 )
