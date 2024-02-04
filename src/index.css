@@ -9,5 +9,5 @@
 }
 
 body {
-  @apply bg-zinc-950 font-mono text-zinc-100;
+  @apply text-pretty break-words bg-zinc-950 font-mono text-sm text-zinc-100 md:text-base;
 }

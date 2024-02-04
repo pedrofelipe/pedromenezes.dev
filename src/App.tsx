@@ -52,7 +52,7 @@ const resume = {
 }
 
 export const App = () => (
-  <main className="mx-auto flex min-h-dvh w-full items-center justify-center text-pretty break-words p-4 md:p-8">
+  <main className="mx-auto flex min-h-dvh w-full items-center justify-center p-4 md:p-8">
     <JsonFormatter json={JSON.stringify(resume)} />
   </main>
 )
