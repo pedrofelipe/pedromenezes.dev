@@ -63,7 +63,11 @@ const resume = {
     },
     {
       name: 'linkedin',
-      url: 'https://www.linkedin.com/in/pedrofelipem'
+      url: 'https://linkedin.com/in/pedrofelipem'
+    },
+    {
+      name: 'last.fm',
+      url: 'https://last.fm/user/pedro-felipe'
     }
   ]
 }
