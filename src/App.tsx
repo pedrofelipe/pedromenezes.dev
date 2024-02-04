@@ -48,11 +48,11 @@ const resume = {
       title: 'Frontend Engineer'
     }
   ],
-  technologies: ['javascript', 'css', 'typescript', 'html', 'node.js', 'react', 'tailwind css', 'vite', 'vitest']
+  technologies: ['javascript', 'css', 'typescript', 'html', 'nodejs', 'react', 'tailwindcss', 'vite', 'vitest']
 }
 
 export const App = () => (
   <main className="mx-auto flex min-h-dvh w-full items-center justify-center text-pretty break-words p-4 md:p-8">
-    <JsonFormatter json={resume} />
+    <JsonFormatter json={JSON.stringify(resume)} />
   </main>
 )

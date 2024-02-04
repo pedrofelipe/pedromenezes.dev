@@ -9,5 +9,5 @@
 }
 
 body {
-  @apply font-mono text-zinc-100 bg-zinc-950;
+  @apply bg-zinc-950 font-mono text-zinc-100;
 }
