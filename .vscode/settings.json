@@ -1,0 +1,28 @@
+{
+  "editor.rulers": [140],
+  "editor.tabSize": 2,
+  "[javascript][javascriptreact][typescript][typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.fixAll.prettier": "explicit"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.prettier": "explicit"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": true
+  },
+  "search.exclude": {
+    ".git/": true,
+    ".yarn/": true,
+    "dist/": true,
+    "node_modules/": true
+  },
+  "workbench.editor.labelFormat": "medium"
+}

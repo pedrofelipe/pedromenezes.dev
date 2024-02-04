@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  @apply antialiased;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  @apply font-mono text-zinc-100 bg-zinc-950;
+}
