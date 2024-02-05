@@ -80,7 +80,6 @@ const resume = {
     'tailwindcss',
     'cloudflare workers'
   ],
-  interests: ['tech', 'gaming', 'flight simulation', 'travel - 18 countries visited so far'],
   social: [
     {
       name: 'twitter',
