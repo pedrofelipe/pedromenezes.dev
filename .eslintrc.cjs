@@ -1,5 +1,4 @@
 module.exports = {
-  root: true,
   env: {
     browser: true,
     es2020: true,
@@ -15,6 +14,7 @@ module.exports = {
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   parser: '@typescript-eslint/parser',
   plugins: ['import', 'react-refresh'],
+  root: true,
   settings: {
     'import/parsers': {
       '@typescript-eslint/parser': ['.ts', '.tsx']
